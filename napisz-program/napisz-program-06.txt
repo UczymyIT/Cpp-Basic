@@ -1,0 +1,27 @@
+/* --------------------------------------------------------------
+   Program nr 6
+   Instrukcja warunkowa: if
+-------------------------------------------------------------- */
+Co ma robić program:
+
+1. Zapytać użytkownika o imię.
+2. Zapisać imię podane przez użytkownika do zmiennej.
+3. Zpytać użytkownika o wiek.
+4. Zapisać wiek użytkownika do zmiennej.
+5. W zależności od danych jakie poda użytkownik (imię i wiek), przypisz użytkownika do odpowiedniej grupy i spraw, że otrzyma odpowiedni komunikat.
+   a. dla grupy: mężczyzna poniżej 14 lat, wyświetl komunikat: "Tresc odpowiednia dla mezczyzny ponizej 14 lat".
+   b. dla grupy: mężczyzna od 15 do 17 lat, wyświetl komunikat: "Tresc odpowiednia dla mezczyzny w wieku 15-17 lat".
+   c. dla grupy: mężczyzna powyżej 17 lat, wyświetl komunikat: "Tresc odpowiednia dla mezczyzny powyżej 17 lat".
+   d. dla grupy: kobieta do 35 lat, wyświetl komunikat: "Tresc odpowiednia dla kobiety do 35 lat".
+   e. dla grupy: kobieta powyżej 35 lat, wyświetl komunikat: "Tresc odpowiednia dla kobiety powyzej 35 lat".
+
+Podpowiedź:
+
+1. Zidentyfikuj płeć po imieniu. Imiona kobiet kończą się na literę "a".
+   Do sprawdzenia jaka jest ostatnia litera imienia możesz skorzystać z funkcji: 
+   length(), która obliczy długość imienia (ile imię ma znaków)
+      przykład: int liczbaZnakow = imie.length();
+   substr(), która przy odpowiednich argumentach, zwróci Wam ostatnią literę imienia.
+      przykład: string znak = imie.substr( od_ktorego_miejsca_wycią_znaki , ile_znaków_wyciąć )
+   
+2. Do wyświetlania odpowiedniego komunikatu dla odpowiedniej grupy użyj instrukcji warunkowej IF.
