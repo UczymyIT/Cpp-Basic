@@ -1,9 +1,0 @@
-/* --------------------------------------------------------------
-   Program nr 5
-   Instrukcja warunkowa: if
--------------------------------------------------------------- */
-Co ma robić program:
-
-1. Poproś użytkownika o podanie trzech liczb.
-2. Za pomocą instrukcji IF sprawdź która z podanych liczb jest największa.
-3. Wyświetl tą liczbę na ekranie monitora.
